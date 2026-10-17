@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["ExpoFaceBoxesModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.faceboxes.ExpoFaceBoxesModule"]
+  }
+}

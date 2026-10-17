@@ -1,0 +1,41 @@
+{
+  "name": "@realadultmedia/expo-face-boxes",
+  "version": "1.0.0",
+  "description": "Find faces in a photo on the device, with Apple Vision and ML Kit, so they can be covered before the photo is shared.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "src",
+    "ios",
+    "android/build.gradle",
+    "android/src",
+    "expo-module.config.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "prepare": "tsc"
+  },
+  "keywords": ["expo", "react-native", "face-detection", "privacy", "vision", "ml-kit"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realadultmedia/expo-face-boxes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/realadultmedia/expo-face-boxes/issues"
+  },
+  "homepage": "https://github.com/realadultmedia/expo-face-boxes#readme",
+  "author": "Real Adult Media (https://www.realadult.media)",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": "*"
+  },
+  "devDependencies": {
+    "expo-modules-core": "^57.0.0",
+    "typescript": "^5.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
